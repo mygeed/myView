@@ -1,0 +1,15 @@
+.idea
+.vscode
+.DS_Store
+*.local
+lerna-debug.json
+lerna-debug.log
+yarn-error.log
+storybook-static
+coverage/
+node_modules
+dist
+website-dist
+lib
+package-lock.json
+yarn.lock

@@ -1,0 +1,259 @@
+{
+    "name": "iview-vue3",
+    "version": "3.0.1",
+    "title": "iView-vue3",
+    "description": "A high quality UI components Library with Vue.js",
+    "homepage": "https://github.com/mygeed/iview-vue3",
+    "keywords": [
+        "iview-vue3",
+        "vue3",
+        "vue3.js",
+        "ui-vue3",
+        "framework-vue3"
+    ],
+    "main": "dist/iview.js",
+    "typings": "types/index.d.ts",
+    "files": [
+        "dist",
+        "src",
+        "types"
+    ],
+    "scripts": {
+        "build": "cross-env webpack --config ./build/webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mygeed/iview-vue3"
+    },
+    "author": "Ethan",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mygeed/iview-vue3/issues"
+    },
+    "dependencies": {
+        "async-validator": "^1.12.2",
+        "deepmerge": "^2.2.1",
+        "element-resize-detector": "^1.2.0",
+        "js-calendar": "^1.2.3",
+        "lodash.throttle": "^4.1.1",
+        "popper.js": "^1.14.6",
+        "tinycolor2": "^1.4.1",
+        "v-click-outside-x": "^4.0.19"
+    },
+    "peerDependencies": {
+        "vue": "3.1.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.1",
+        "@babel/core": "^7.11.4",
+        "@babel/plugin-proposal-class-properties": "^7.12.1",
+        "@babel/plugin-transform-runtime": "^7.12.1",
+        "@babel/preset-env": "^7.11.5",
+        "@babel/preset-typescript": "^7.10.4",
+        "@commitlint/cli": "^9.1.2",
+        "@commitlint/config-conventional": "^9.1.2",
+        "@rollup/plugin-commonjs": "^15.1.0",
+        "@rollup/plugin-node-resolve": "^9.0.0",
+        "@rollup/plugin-typescript": "^6.0.0",
+        "@types/jest": "^26.0.10",
+        "@types/lodash": "^4.14.161",
+        "@typescript-eslint/eslint-plugin": "^3.10.1",
+        "@typescript-eslint/parser": "^3.10.1",
+        "@vue/babel-plugin-jsx": "^1.0.0",
+        "@vue/compiler-sfc": "^3.1.1",
+        "@vue/component-compiler-utils": "^3.2.0",
+        "algoliasearch": "^4.4.0",
+        "babel-jest": "^26.3.0",
+        "babel-loader": "^8.1.0",
+        "babel-plugin-lodash": "^3.3.4",
+        "babel-plugin-module-resolver": "^4.0.0",
+        "babel-preset-vue": "^2.0.2",
+        "chalk": "^4.1.0",
+        "clipboard-copy": "^4.0.1",
+        "components-helper": "^1.0.2",
+        "cp-cli": "^2.0.0",
+        "cross-env": "^7.0.2",
+        "css-loader": "^4.2.2",
+        "css-minimizer-webpack-plugin": "^1.1.5",
+        "cz-conventional-changelog": "^3.3.0",
+        "esbuild": "^0.12.5",
+        "eslint": "^7.7.0",
+        "eslint-plugin-vue": "^7.0.0-beta.0",
+        "file-loader": "^6.0.0",
+        "file-save": "^0.2.0",
+        "highlight.js": "^10.4.1",
+        "html-webpack-plugin": "^4.3.0",
+        "husky": "^4.2.5",
+        "import-from": "^3.0.0",
+        "jest": "^26.6.3",
+        "lerna": "^3.22.1",
+        "lint-staged": "^10.2.13",
+        "markdown-it": "^11.0.0",
+        "markdown-it-anchor": "^5.3.0",
+        "markdown-it-chain": "^1.3.0",
+        "markdown-it-container": "^3.0.0",
+        "mini-css-extract-plugin": "^0.11.2",
+        "ora": "^5.1.0",
+        "rimraf": "^3.0.2",
+        "rollup": "^2.28.2",
+        "rollup-plugin-css-only": "^2.1.0",
+        "rollup-plugin-esbuild": "^4.2.3",
+        "rollup-plugin-terser": "^7.0.2",
+        "rollup-plugin-typescript2": "^0.27.3",
+        "rollup-plugin-vue": "^6.0.0",
+        "sass": "^1.34.0",
+        "sass-loader": "^10.0.1",
+        "sinon": "^9.0.3",
+        "style-loader": "^1.2.1",
+        "throttle-debounce": "2.3.0",
+        "transliteration": "^2.1.11",
+        "ts-loader": "^8.0.3",
+        "typescript": "^4.0.2",
+        "url-loader": "^4.1.0",
+        "vue": "3.1.1",
+        "vue-jest": "5.0.0-alpha.5",
+        "vue-loader": "^16.1.2",
+        "vue-router": "^4.0.2",
+        "vue-template-compiler": "^2.6.12",
+        "webpack": "^4.44.1",
+        "webpack-bundle-analyzer": "^3.9.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged",
+            "pre-push-todo-open": "npm run test",
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
+    },
+    "lint-staged": {
+        "*.{js,ts,vue}": "eslint --fix"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "peerDependencies": {
+        "vue": "^3.1.1"
+    },
+    "devDependencies": {
+        "autoprefixer-loader": "^3.2.0",
+        "babel-cli": "^7.0.0-beta.3",
+        "babel-core": "^7.0.0-beta.3",
+        "babel-helper-vue-jsx-merge-props": "^2.0.3",
+        "babel-loader": "^8.2.2",
+        "babel-plugin-dynamic-import-node": "^2.3.3",
+        "babel-plugin-syntax-jsx": "^7.0.0-beta.3",
+        "babel-plugin-transform-class-properties": "^7.0.0-beta.3",
+        "babel-plugin-transform-es5-property-mutators": "^7.0.0-beta.3",
+        "babel-plugin-transform-object-rest-spread": "^7.0.0-beta.3",
+        "babel-plugin-transform-runtime": "^7.0.0-beta.3",
+        "babel-plugin-transform-vue-jsx": "^4.0.1",
+        "babel-preset-env": "^7.0.0-beta.3",
+        "babel-preset-stage-3": "^7.0.0-beta.3",
+        "babel-runtime": "^7.0.0-beta.3",
+        "chai": "^4.3.4",
+        "compression-webpack-plugin": "^8.0.0",
+        "copy-webpack-plugin": "^9.0.0",
+        "cross-env": "^5.2.0",
+        "css-loader": "^5.2.6",
+        "eslint": "^7.0.0-rc.0",
+        "eslint-plugin-vue": "^7.0.0-beta.4",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "file-loader": "^6.2.0",
+        "friendly-errors-webpack-plugin": "^1.6.1",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^5.0.0",
+        "gulp-clean-css": "^3.10.0",
+        "gulp-less": "^4.0.1",
+        "gulp-rename": "^1.4.0",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.0.6",
+        "karma": "^2.0.5",
+        "karma-chrome-launcher": "^2.2.0",
+        "karma-coverage": "^1.1.1",
+        "karma-mocha": "^1.3.0",
+        "karma-sinon-chai": "^1.3.3",
+        "karma-sourcemap-loader": "^0.3.7",
+        "karma-spec-reporter": "^0.0.32",
+        "karma-webpack": "^2.0.13",
+        "less": "^4.1.1",
+        "less-loader": "^9.1.0",
+        "lolex": "^6.0.0",
+        "mocha": "^9.0.0",
+        "sinon": "^5.0.1-next.1",
+        "sinon-chai": "^3.7.0",
+        "style-loader": "^2.0.0",
+        "tslint": "^5.0.0-dev.0",
+        "typescript": "^4.4.0-dev.20210616",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "url-loader": "^1.0.0-beta.0",
+        "vue": "^3.1.1",
+        "vue-hot-reload-api": "^2.3.4",
+        "vue-html-loader": "^1.2.4",
+        "vue-loader": "^16.2.0",
+        "vue-router": "^4.0.9",
+        "vue-style-loader": "^4.1.3",
+        "vue-template-compiler": "^2.6.14",
+        "@types/sharedb": "^1.0.14",
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-plugin-typescript": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/compiler-sfc": "^3.0.0",
+        "rollup-plugin-vue": "^6.0.0-beta.10",
+        "babel-plugin-import": "^1.13.3"
+    },
+    "engines": {
+        "node": ">=8.9.1",
+        "npm": ">=5.5.1",
+        "yarn": ">=1.3.2"
+    },
+    "browserslist": [
+        "last 3 Chrome versions",
+        "last 3 Firefox versions",
+        "Safari >= 10",
+        "Explorer >= 11",
+        "Edge >= 12",
+        "iOS >= 10",
+        "Android >= 6"
+    ]
+}

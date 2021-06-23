@@ -1,0 +1,12 @@
+{
+  "name": "@myView/myTime",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "3.1.1"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^2.0.0-rc.8"
+  }
+}
