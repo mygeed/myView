@@ -1,4 +1,5 @@
 .idea
+.gitee
 .vscode
 .DS_Store
 *.local
