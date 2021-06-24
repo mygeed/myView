@@ -1,6 +1,6 @@
 <p align="center">
     <a href="http://canbego.com/myview">
-        <img width="168" src="http://smatem.com/images/mygeedLogo.png">
+        <img width="168" src="https://gitee.com/mygeed/myView/raw/master/assets/mygeed.png">
         Power by 深圳市美吉达科技有限公司
     </a>
 </p>
@@ -68,7 +68,7 @@ import 'myView/lib/myView.css';
 ## Major Contributors
 |Name|Avatar|Name|Avatar|Name|Avatar|
 |---|---|---|---|---|---|
-|[Ethan](https://github.com/mygeed) |  <img width="40" src="http://smatem.com/images/mygeedLogo.png"/>
+|[Ethan](https://github.com/mygeed) |  <img width="40" src="https://gitee.com/mygeed/myView/raw/master/assets/mygeed.png"/>
 
 ## Ecosystem Links
 
