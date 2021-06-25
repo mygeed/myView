@@ -1,6 +1,6 @@
 <p align="center">
     <a href="http://canbego.com/myview">
-        <img width="168" src="https://gitee.com/mygeed/myView/raw/master/assets/myView.png">
+        <img width="168" src="https://gitee.com/mygeed/myView/raw/master/assets/logo.png">
         Power by 深圳市美吉达科技有限公司
     </a>
 </p>
