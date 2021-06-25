@@ -1,14 +1,14 @@
 <p align="center">
     <a href="http://canbego.com/myview">
-        <img width="168" src="https://gitee.com/mygeed/myView/raw/master/assets/mygeed.png">
+        <img width="168" src="https://gitee.com/mygeed/myView/raw/master/assets/myView.png">
         Power by 深圳市美吉达科技有限公司
     </a>
 </p>
 <h1></h1>
 
 <h1>
-MyView
-<h3>The high quality UI Toolkit built on Vue3.</h3>
+MyView-美柚UI
+<h3>The MyView UI Toolkit built on Vue3</h3>
 </h1>
 
 ## Docs
@@ -17,7 +17,8 @@ MyView
 
 ## Features
 
-- Dozens of useful and beautiful components.
+- The MyView(美柚) UI Toolkit built on Vue3
+- High quality and beautiful components.
 - Friendly API. It's made for people with any skill level.
 - Extensive documentation and demos.
 - It is quite beautiful.
