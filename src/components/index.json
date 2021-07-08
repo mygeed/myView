@@ -1,0 +1,22 @@
+{
+  "myBtn": {
+    "name": "myBtn",
+    "title": "myBtn",
+    "componentName": "myBtn"
+  },
+  "myIcon": {
+    "name": "myIcon",
+    "title": "myIcon 图标",
+    "componentName": "myIcon"
+  },
+  "myTime": {
+    "name": "myTime",
+    "title": "myTime 时间",
+    "componentName": "myTime"
+  },
+  "myUtil": {
+    "name": "myUtil",
+    "title": "myUtils 工具组件",
+    "componentName": "myUtil"
+  }
+}

@@ -1,12 +1,12 @@
 <template>
   <span :class="classes" @click="handleClick">{{ date }}</span>
 </template>
-<script>
-  import {defineComponent} from 'vue'
+<script lang="ts">
+  import {defineComponent, ref} from 'vue'
   import Time from './time'
   const prefixCls = 'ivu-time'
   export default defineComponent({
-    name: 'Time',
+    name: 'myTime',
     props: {
       time: {
         type: [Number, Date, String],

@@ -29,6 +29,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-var-requires': 0,
     '@typescript-eslint/member-delimiter-style': [
       'error',
       {
@@ -41,18 +42,6 @@ module.exports = {
     // vue
     'vue/no-v-html': 'off',
     'vue/singleline-html-element-content-newline': 'off',
-    'vue/html-self-closing': ['error', {
-      html: {
-        void: 'never',
-        normal: 'never',
-        component: 'always'
-      }
-    }],
-    'vue/max-attributes-per-line': ['error', {
-      singleline: 3,
-      multiline: 1
-    }],
-    'vue/require-default-prop': 'off',
-    'vue/html-closing-bracket-spacing': 'error'
+    'vue/require-default-prop': 'off'
   }
 }

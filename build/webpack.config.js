@@ -15,7 +15,7 @@ const plugins = [
   new VueLoaderPlugin()
 ]
 
-const entry = path.resolve(__dirname, '../src/components/main.ts')
+const entry = path.resolve(__dirname, '../src/components/index.ts')
 
 externals.push({
   '@popperjs/core': '@popperjs/core',
